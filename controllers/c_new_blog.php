@@ -14,7 +14,7 @@ class c_new_blog
             echo "<script>alert('Đã post thành công')</script>";
         }
 
-        $view = "views/new_blog/v_new_blog.php";
+        $view = "views/blog/v_new_blog.php";
         include "./templates/front-end/layout.php";
     }
 }
